@@ -721,6 +721,18 @@ section {
     width: 800px;
     height: 311px;
 }
+
+.button {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
 .portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -1172,7 +1184,7 @@ section {
     background: #5969f3;
 }
 .footer .footer-top {
-    background: white url(../img/footer-bg.png) no-repeat right top;
+    background: white url(img/footer/pasarLegi.jpeg) no-repeat right top;
     background-size: contain;
     border-top: 1px solid #e1ecff;
     border-bottom: 1px solid #e1ecff;
