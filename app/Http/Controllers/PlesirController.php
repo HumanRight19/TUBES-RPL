@@ -14,7 +14,19 @@ class PlesirController extends Controller
         return view('login');
     }
 
+    public function registerPage(){
+        return view('register');
+    }
+
     public function destinasiPage(){
         return view('destinasi');
+    }
+
+    public function aboutPage(){
+        return view('about');
+    }
+
+    public function keratonPage(){
+        return view('keraton');
     }
 }
