@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PlesirSolo</title>
+  <title>PlesirSolo - Destinasi Wisata</title>
   <meta content="" name="description">
 
   <meta content="" name="keywords">
@@ -40,23 +40,19 @@
         <span>PlesirSolo</span>
       </a>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" style="margin-right: 50px">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Destinasi</a></li>
+          <li><a class="nav-link scrollto" href="/about">About</a></li>
+          <li><a class="nav-link scrollto" href="/destinasi">Destinasi</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle btn-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
+          <li class="dropdown">
+            <a href="#"><img src="img/user/user1.png" alt="" style="width: 60px"></a>
+            <ul>
+              <li><a href="">UserUserUser1</a></li>
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/">Logout</a></li>
+            </ul>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,360 +61,24 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-    <section class="vh-100" style="background-image: url('img/keraton.png'); background-repeat: no-repeat; background-size: cover; ">
-      <div class="px-4 py-5 px-md-5 text-center text-lg-start" >
-        <div class="container">
-          <div class="row gx-lg-5 align-items-center">
-            <div class="hero col-lg-6 d-flex flex-column align-items-start">
-              <h1 data-aos="fade-up">PlesirSolo</h1>
-              <h2 data-aos="fade-up" data-aos-delay="400">Jelajahi Kota Solo dengan PlesirSolo</h2>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <div class="text-center text-lg-start">
-                  <a href="/login" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span>Get Started</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <h3>Tentang Kami</h3>
-              <h2>PlesirSolo</h2>
-              <p>
-                PlesirSolo adalah website terkemuka di Indonesia yang menyediakan akses bagi masyarakat untuk menemukan berbagai destinasi wisata di Kota Solo dan memesan tiket destinasi wisata. Sebagai lifestyle super web di Indonesia, PlesirSolos memiliki produk layanan yang lengkap.
-              </p>
-              <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="img/about/about.jpg" class="img-fluid" alt="about-us">
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- End About Section -->
-
-    <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Our Values</h2>
-          <p>Prinsip Kami</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <img src="img/values-1.png" class="img-fluid" alt="">
-              <h3>Integrity</h3>
-              <p>Melakukan hal yang benar, bertanggung jawab, dan berkomitmen</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-            <div class="box">
-              <img src="img/values-2.png" class="img-fluid" alt="">
-              <h3>Excellence</h3>
-              <p>Memberikan kinerja terbaik dan hasil yang luar biasa adalah tujuan kami</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
-            <div class="box">
-              <img src="img/values-3.png" class="img-fluid" alt="">
-              <h3>Winning Spirit</h3>
-              <p>Berusaha keras untuk melakukan yang terbaik dan tidak pernah menyerah</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Values Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Pengguna</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Destinasi Wisata</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-headset" style="color: #15be56;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-                <p>jam non-stop layanan</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-people" style="color: #bb0852"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Designer</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Visi Misi</h2>
-          <p>PlesirSolo</p>
-        </header>
-
-        <!-- Feature Tabs -->
-        <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3>Visi Misi PlesirSolo</h3>
-
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Visi</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Misi</a>
-              </li>
-            </ul><!-- End Tabs -->
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-                <p>Kami memiliki visi perusahaan untuk mencapai tujuan kami</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Mempermudah</h4>
-                </div>
-                <p>Menjadikan traveling lebih mudah, cepat, dan menyenangkan melalui teknologi </p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Menjadi pelopor</h4>
-                </div>
-                <p>Menjadi salah satu perusahaan Pariwisata terbaik di Indonesia</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Berkontribusi</h4>
-                </div>
-                <p>Berkontribusi didalam meningkatkan industri pariwisata di Surakarta</p>
-              </div><!-- End Tab 1 Content -->
-
-              <div class="tab-pane fade show" id="tab2">
-                <p>Kami memiliki misi perusahaan untuk mencapai tujuan kami</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Menyajikan yang terbaik</h4>
-                </div>
-                <p>Selalu menghadirkan produk-produk dan layanan terbaik</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Kemudahan dan Kenyamanan</h4>
-                </div>
-                <p>Memberikan kemudahan dan kenyamanan bagi setiap pelanggan</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Meningkatkan kemampuan</h4>
-                </div>
-                <p> Secara terus menerus meningkatkan kemampuan SDM dan infrastuktur perusahaan sehingga dapat memberikan pelayanan yang terbaik kepada seluruh pelanggannya</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Bermitra</h4>
-                </div>
-                <p>Menjalin dan meningkatkan kerja sama dengan semua mitra usaha.</p>
-              </div><!-- End Tab 2 Content -->
-
-            </div>
-
-          </div>
-          <div class="col-lg-6">
-            <img src="img/visi/goal.png" class="img-fluid" alt="">
-          </div>
-        </div><!-- End Feature Tabs -->
-      </div>
-
-    </section><!-- End Features Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>F.A.Q</h2>
-          <p>Frequently Asked Questions</p>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <!-- F.A.Q List 1-->
-            <div class="accordion accordion-flush" id="faqlist1">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    Bagaimana cara menggunakan PlesirSolo?
-                  </button>
-                </h2>
-                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Untuk mengakses layanan, Anda perlu masuk dengan akun Anda
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    Apakah website ini aman?
-                  </button>
-                </h2>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Ya, website PlesirSolo aman untuk digunakan. Website PlesirSolo telah menggunakan sistem keamanan tinggi
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                    Apakah sudah tersedia aplikasi mobile?
-                  </button>
-                </h2>
-                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Untuk sementara waktu belum diluncurkan untuk mobile app, namun kami berusaha untuk dapat meluncurkan mobile app PlesirSolo
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-
-            <!-- F.A.Q List 2-->
-            <div class="accordion accordion-flush" id="faqlist2">
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                    Untuk siapakah web PlesirSolo ditujukan?
-                  </button>
-                </h2>
-                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Website PlesirSolo dapat digunakan untuk seluruh masyarakat baik dalam maupun luar solo
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                    Bagaimana saya bisa membeli tiket wisata?
-                  </button>
-                </h2>
-                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Anda dapat mengunjungi pada halaman beli tiket untuk membeli tiket
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                    Metode pembayaran apa saja yang dapat digunakan?
-                  </button>
-                </h2>
-                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Anda dapat menggunakan pembayaran melalui ATM mapun e-wallet
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End F.A.Q Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" style="margin-top: 100px">
 
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" style="margin-top: 70px">
 
         <header class="section-header">
-          <h2>Destinasi Wisata</h2>
           <p>Destinasi Wisata Kota Solo</p>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
+          <div class="col-lg-12 d-flex justify-content-center mt-4">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Historical </li>
-              <li data-filter=".filter-card">New</li>
-              <li data-filter=".filter-web">Shopping</li>
+              <li data-filter="*" class="filter-active">Semua</li>
+              <li data-filter=".filter-app">Sejarah </li>
+              <li data-filter=".filter-card">Hiburan</li>
+              <li data-filter=".filter-web">Alam</li>
             </ul>
           </div>
         </div>
@@ -433,7 +93,7 @@
                 <p>Historical</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/keraton.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Keraton Solo Hadiningrat"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -447,7 +107,7 @@
                 <p>Historical</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/vastenburg.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Benteng Vastenburg"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -458,10 +118,10 @@
               <img src="img/destinasi/sriwedari.jpeg" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
                 <h4>Taman Sriwedari</h4>
-                <p>Historical</p>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/sriwedari.jpeg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Sriwedari"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -469,13 +129,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/keris.jpg" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/sangiran.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Tugu Keris</h4>
-                <p>New</p>
+                <h4>Museum Sangiran</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/keris.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Tugu Keris"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/sangiran.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Museum Sangiran"><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -483,13 +143,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/jembatanKaca.jpg" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/pers.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Jembatan Kaca Tirtonadi</h4>
-                <p>New</p>
+                <h4>Monumen Pers</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/jembatanKaca.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Jembatan Kaca Tirtonadi"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/pers.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Monumen Pers"><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -497,13 +157,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/cerdas.jpg" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/radyapustaka.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Taman Cerdas</h4>
-                <p>New</p>
+                <h4>Museum Radya Pustaka</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/cerdas.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Cerdas"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/radyapustaka.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Museum Radya Pustaka"><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -511,13 +171,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/triwindu.png" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/mangkunegaran.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Pasar Triwindu</h4>
-                <p>Shopping</p>
+                <h4>Pura Mangkunegaran</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/triwindu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pasar Triwindu"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/mangkunegaran.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pura Mangkunegaran"><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -525,13 +185,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/pasarGede.jpg" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/dColomadu.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Pasar Gede</h4>
-                <p>Shopping</p>
+                <h4>De Tjolomadoe</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/pasarGede.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pasar Gede"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/dColomadu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="De Tjolomadoe"><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -539,13 +199,265 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="img/destinasi/pasarKlewer.jpg" class="img-fluid" id="image-dest" alt="">
+              <img src="img/destinasi/sejarah/candi.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
-                <h4>Pasar Klewer</h4>
-                <p>Shopping</p>
+                <h4>Candi Sukuh</h4>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
-                  <a href="img/destinasi/pasarKlewer.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pasar Klewer" ><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="img/destinasi/sejarah/candi.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Candi Sukuh" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/museum.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Tumurun Private Museum</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/museum.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Tumurun Private Museum" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/pandawa.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Pandawa Water World</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/pandawa.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Tumurun Private Museum" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/sekipan.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Bukit Sekipan</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/sekipan.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Tumurun Private Museum" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/heritageplace.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>The Heritage Place</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/heritageplace.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="The Heritage Place" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/taman.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Taman</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/taman.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/cerdas.jpg" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Taman Cerdas</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/cerdas.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Cerdas" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/triwindu.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Pasar Triwindu</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/triwindu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pasar Triwindu" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/lampion.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Lampion Pasar Gede</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/lampion.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Lampion Pasar Gede" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/hiburan/trans.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Trans Studio</h4>
+                <p>Hiburan</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/hiburan/trans.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Trans Studio" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/bukit.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Bukit</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/bukit.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Bukit" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/taman.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Taman Balekambang</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/taman.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Balekambang" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/rumah.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>The Lawu Park</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/rumah.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="The Lawu Park" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/grojogan.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Grojogan Sewu</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/grojogan.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Grojogan Sewu" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/hutan.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Taman Hutan Rakyat</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/hutan.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Hutan Rakyat" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/terjun.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Air Terjun Jumog</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/terjun.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Air Terjun Jumog" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/lawu.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Gunung Lawu</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/lawu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Gunung Lawu" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/telaga.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Telaga Mardida</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/telaga.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Telaga Mardida" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/destinasi/alam/batu.png" class="img-fluid" id="image-dest" alt="">
+              <div class="portfolio-info">
+                <h4>Geopark Batu Seribu</h4>
+                <p>Alam</p>
+                <div class="portfolio-links">
+                  <a href="img/destinasi/alam/batu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Geopark Batu Seribu" ><i class="bi bi-plus"></i></a>
+                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -557,197 +469,10 @@
 
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Testimonials</h2>
-          <p>Apa Kata Mereka</p>
-        </header>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Mudah digunakan dan tampilannya menarik
-                </p>
-                <div class="profile mt-auto">
-                  <img src="img/user.png" class="testimonial-img" alt="">
-                  <h3>John</h3>
-                  <h4>Pengguna</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Mudah digunakan dan tampilannya menarik
-                </p>
-                <div class="profile mt-auto">
-                  <img src="img/user.png" class="testimonial-img" alt="">
-                  <h3>John</h3>
-                  <h4>Pengguna</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Mudah digunakan dan tampilannya menarik
-                </p>
-                <div class="profile mt-auto">
-                  <img src="img/user.png" class="testimonial-img" alt="">
-                  <h3>John</h3>
-                  <h4>Pengguna</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Mudah digunakan dan tampilannya menarik
-                </p>
-                <div class="profile mt-auto">
-                  <img src="img/user.png" class="testimonial-img" alt="">
-                  <h3>John</h3>
-                  <h4>Pengguna</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Mudah digunakan dan tampilannya menarik
-                </p>
-                <div class="profile mt-auto">
-                  <img src="img/user.png" class="testimonial-img" alt="">
-                  <h3>John</h3>
-                  <h4>Pengguna</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p>Hubungi Kami</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Jl Pegangsaan Timur,<br>Jebres, 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Telepon</h3>
-                  <p>089898765234<br>081444657878</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>x@gmail.com<br>y@gmail.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Jam Operasional</h3>
-                  <p>Senin - Jumat<br>8:00AM - 16:00</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Nama" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Pesan Anda telah terkirim. Terimakasih!</div>
-
-                  <button type="submit">Kirim Pesan</button>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer" style="margin-top: 100px">
 
     <div class="footer-newsletter">
       <div class="container">
