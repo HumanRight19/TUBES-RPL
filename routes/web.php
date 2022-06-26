@@ -18,11 +18,10 @@ Route::get('/', [PlesirController::class,'index']);
 
 Route::get('/login', [PlesirController::class, 'loginPage']);
 
-Route::get('/register', [RegistrasiController::class, 'registerPage']);
-
-Route::post('/register', [RegistrasiController::class, 'store']);
+Route::get('/register', [PlesirController::class, 'registerPage']);
 
 Route::get('/destinasi', [PlesirController::class, 'destinasiPage']);
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/about', [PlesirController::class, 'aboutPage']);
+
+Route::get('/keraton', [PlesirController::class, 'keratonPage']);
