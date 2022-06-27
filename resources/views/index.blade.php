@@ -10,21 +10,16 @@
 
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link rel="shortcut icon" href="img/icon/icon.png" type="image/x-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="css/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="assets/vendor/remixicon/remixicon.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-  <!-- Template Main CSS File -->
   <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -74,7 +69,7 @@
       </div>
     </section>
 
-  <main id="main">
+  <main id="main"> <!-- #main -->
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
@@ -546,7 +541,6 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="js/purecounter.js"></script>
   <script src="js/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -554,8 +548,6 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="js/script.js"></script>
 
 </body>
