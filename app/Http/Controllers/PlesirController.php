@@ -29,4 +29,36 @@ class PlesirController extends Controller
     public function keratonPage(){
         return view('keraton');
     }
+
+    public function puraPage(){
+        return view('pura');
+    }
+
+    public function heritagePage(){
+        return view('heritage');
+    }
+
+    public function balekambangPage(){
+        return view('balekambang');
+    }
+
+    public function detailbayarPage(){
+        return view('detailbayar');
+    }
+
+    public function buktiPage(){
+        return view('bukti');
+    }
+
+    public function profilePage(){
+        return view('profile');
+    }
+
+    public function verifyPage(){
+        return view('verify');
+    }
+
+    public function forgotPage(){
+        return view('forgot');
+    }
 }
