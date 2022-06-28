@@ -10,21 +10,16 @@
 
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link rel="shortcut icon" href="img/icon/icon.png" type="image/x-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="css/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="assets/vendor/remixicon/remixicon.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-  <!-- Template Main CSS File -->
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -45,7 +40,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           <li><a class="nav-link scrollto" href="/destinasi">Destinasi</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/">Contact</a></li>
           <li class="dropdown">
             <a href="#"><img src="img/user/user1.png" alt="" style="width: 60px"></a>
             <ul>
@@ -61,8 +56,7 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-
+  <main id="main"><!-- #main -->
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio" style="margin-top: 100px">
 
@@ -90,7 +84,7 @@
               <img src="img/destinasi/keraton.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
                 <h4>Keraton Solo Hadiningrat</h4>
-                <p>Historical</p>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/keraton.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Keraton Solo Hadiningrat"><i class="bi bi-plus"></i></a>
                   <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
@@ -99,12 +93,12 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/vastenburg.jpg" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
                 <h4>Benteng Vastenburg</h4>
-                <p>Historical</p>
+                <p>Sejarah</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/vastenburg.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Benteng Vastenburg"><i class="bi bi-plus"></i></a>
                   <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
@@ -127,7 +121,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/sejarah/sangiran.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -141,7 +135,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/sejarah/pers.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -169,7 +163,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/sejarah/mangkunegaran.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -177,13 +171,13 @@
                 <p>Sejarah</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/sejarah/mangkunegaran.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pura Mangkunegaran"><i class="bi bi-plus"></i></a>
-                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/pura" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/sejarah/dColomadu.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -197,7 +191,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="img/destinasi/sejarah/candi.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -211,7 +205,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/museum.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -225,7 +219,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/pandawa.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -239,7 +233,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/sekipan.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -253,7 +247,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/heritageplace.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -261,13 +255,13 @@
                 <p>Hiburan</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/hiburan/heritageplace.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="The Heritage Place" ><i class="bi bi-plus"></i></a>
-                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/heritage" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/taman.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -281,7 +275,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/cerdas.jpg" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -295,7 +289,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/triwindu.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -309,7 +303,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/lampion.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -323,7 +317,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="img/destinasi/hiburan/trans.png" class="img-fluid" id="image-dest" alt="">
               <div class="portfolio-info">
@@ -359,7 +353,7 @@
                 <p>Alam</p>
                 <div class="portfolio-links">
                   <a href="img/destinasi/alam/taman.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Balekambang" ><i class="bi bi-plus"></i></a>
-                  <a href="/keraton" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="/balekambang" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -468,11 +462,10 @@
       </div>
 
     </section><!-- End Portfolio Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer" style="margin-top: 100px">
+  <footer id="footer" class="footer">
 
     <div class="footer-newsletter">
       <div class="container">
@@ -501,10 +494,10 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Destinasi</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Beli Tiket</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/index">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/keraton">Beli Tiket</a></li>
             </ul>
           </div>
 
@@ -533,7 +526,6 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="js/purecounter.js"></script>
   <script src="js/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -541,8 +533,6 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="js/script.js"></script>
 
 </body>
