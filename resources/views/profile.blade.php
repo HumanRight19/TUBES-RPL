@@ -133,65 +133,65 @@
 
   </main><!-- End #main -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
-  <div class="footer-newsletter">
-    <div class="container">
-      <div class="row justify-content-center">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="footer-top">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <img src="img/icon/icon.png" alt="PlesirSolo">
-            <span>PlesirSolo</span>
-          </a>
-          <p>PlesirSolo merupakan salah satu website yang menyajikan berbagai kemudahan untuk Anda, dalam mengeksplor Kota Solo</p>
-          <div class="social-links mt-3">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="img/icon/icon.png" alt="PlesirSolo">
+              <span>PlesirSolo</span>
+            </a>
+            <p>PlesirSolo merupakan salah satu website yang menyajikan berbagai kemudahan untuk Anda, dalam mengeksplor Kota Solo</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Link</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="/index">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/keraton">Beli Tiket</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Jl Pegangsaan Timur <br>
+              Jebres, Surakarta 535022<br>
+              Indonesia <br><br>
+              <strong>Telepon:</strong> 089898765234<br>
+              <strong>Email:</strong> x@gmail.com<br>
+            </p>
+
+          </div>
+
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Link</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Destinasi</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Beli Tiket</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>
-            Jl Pegangsaan Timur <br>
-            Jebres, Surakarta 535022<br>
-            Indonesia <br><br>
-            <strong>Telepon:</strong> 089898765234<br>
-            <strong>Email:</strong> x@gmail.com<br>
-          </p>
-
-        </div>
-
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>PlesirSolo</span></strong>. All Rights Reserved
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PlesirSolo</span></strong>. All Rights Reserved
+      </div>
     </div>
-  </div>
-</footer><!-- End Footer -->
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
