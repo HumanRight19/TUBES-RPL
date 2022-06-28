@@ -509,10 +509,10 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Destinasi</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Beli Tiket</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/index">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/keraton">Beli Tiket</a></li>
             </ul>
           </div>
 
