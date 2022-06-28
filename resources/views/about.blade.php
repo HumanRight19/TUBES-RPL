@@ -10,21 +10,16 @@
 
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link rel="shortcut icon" href="img/icon/icon.png" type="image/x-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="css/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="assets/vendor/remixicon/remixicon.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-  <!-- Template Main CSS File -->
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -45,7 +40,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           <li><a class="nav-link scrollto" href="/destinasi">Destinasi</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/">Contact</a></li>
           <li class="dropdown">
             <a href="#"><img src="img/user/user1.png" alt="" style="width: 60px"></a>
             <ul>
@@ -61,7 +56,7 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <main id="main"> <!-- #main -->
     <!-- ======= About Section ======= -->
     <section id="about" class="about mt-5">
 
@@ -350,7 +345,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer" style="margin-top: 100px">
+  <footer id="footer" class="footer">
 
     <div class="footer-newsletter">
       <div class="container">
@@ -379,10 +374,10 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Destinasi</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Beli Tiket</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/index">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/keraton">Beli Tiket</a></li>
             </ul>
           </div>
 
@@ -407,11 +402,10 @@
         &copy; Copyright <strong><span>PlesirSolo</span></strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer><!-- End Footer --><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="js/purecounter.js"></script>
   <script src="js/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -420,7 +414,6 @@
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="js/script.js"></script>
 
 </body>
