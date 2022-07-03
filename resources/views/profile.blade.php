@@ -121,11 +121,19 @@
                     <img src="img/user/user1.png" style="margin-left: 20px" alt="">
                 </div>
 
-                <div class="col-lg-12 d-flex justify-content-start mt-3" style="margin-left: 10px">
-                    <a href="#">
+                <div class="container-fluid container-xl d-flex align-items-center justify-content-start" style="margin-left: 10px">
+                  <div style="margin-left: 10px">  
+                    <a href="/profile">
                       <button type="button" class="btn btn-primary" style="font-size: 20px">Edit Profil</button>
                     </a>
+                  </div>
+                  <div style="margin-left: 10px">
+                    <a href="/profile">
+                      <button type="button" class="btn btn-primary" style="font-size: 20px">Simpan</button>
+                    </a>
+                  </div>
                 </div>
+                
             </div>         
         </div>
 
@@ -163,10 +171,10 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="/index">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="/keraton">Beli Tiket</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/login">Beli Tiket</a></li>
             </ul>
           </div>
 
