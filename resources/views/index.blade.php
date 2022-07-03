@@ -511,7 +511,7 @@
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/about">Tentang Kami</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="/destinasi">Destinasi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Destinasi</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/login">Beli Tiket</a></li>
             </ul>
           </div>
